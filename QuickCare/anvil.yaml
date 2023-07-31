@@ -1,0 +1,37 @@
+dependencies: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+- source: /runtime/services/anvil/files.yml
+  client_config: {}
+  server_config: {file_table: files}
+startup: {type: form, module: Form1}
+package_name: QuickCare
+allow_embedding: false
+name: QuickCare
+runtime_options:
+  version: 2
+  client_version: '3'
+  server_version: python3-sandbox
+  server_spec: {base: python310-machine-learning}
+metadata: {title: QuickCare, description: A central hub for all of your healthcare needs.,
+  logo_img: 'asset:QuickCare Logo.png'}
+startup_form: null
+db_schema:
+  files:
+    client: full
+    server: full
+    columns:
+    - name: path
+      type: string
+      admin_ui: {order: 0, width: 200}
+    - name: file
+      type: media
+      admin_ui: {order: 1, width: 200}
+    - name: file_version
+      type: string
+      admin_ui: {order: 2, width: 200}
+    title: Files
+uplink_visible: true
+renamed: true
