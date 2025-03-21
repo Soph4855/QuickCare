@@ -5,8 +5,7 @@ QuickCare is a website designed to efficiently and reliably meet the basic healt
 ## Inspiration
 
 ### Purpose
-QuickCare, a website application designed to efficiently and reliably meet the basic
-healthcare needs of its users, intends to solve many of the most pressing issues with the dern
+QuickCare intends to solve many of the most pressing issues with the
 healthcare system, including (but not limited to): a shortage of healthcare workers, limited access
 to medical services among low-income individuals, and the delays associated with receiving
 in-person medical attention. By providing easily accessible medical information to patients,
